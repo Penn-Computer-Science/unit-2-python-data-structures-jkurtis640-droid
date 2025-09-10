@@ -12,4 +12,5 @@ number = ["1","2","3","4","5","6","7","8","9","10"]
 print(number[0])
 print(number[4])
 print(number[9])
-add_a_number = number.extend("11","22")
+number.append("11")
+peint(number)

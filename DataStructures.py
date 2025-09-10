@@ -6,8 +6,7 @@ for i in range(2):
     print(color)
 color = ("purple", "orange", "yellow", "green", "blue")
 print(color)
-## Does not run
-## Lists
+##2. Lists
 number = ["1","2","3","4","5","6","7","8","9","10"]
 print(number[0])
 print(number[4])
@@ -21,7 +20,7 @@ print(number[3])
 print(number[5])
 print(number[7])
 print(number[9])
-## Dictionaries
+##3. Dictionaries
 countries = {
    "America": "Washington DC",
     "Canada": "Ottawa",
@@ -34,3 +33,4 @@ print("Tegucigalpa")
 countries["Nicaragua"] = "Managua"
 print(countries)
 print(countries)
+##4. Sets

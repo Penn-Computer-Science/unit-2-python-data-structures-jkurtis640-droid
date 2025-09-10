@@ -34,3 +34,5 @@ countries["Nicaragua"] = "Managua"
 print(countries)
 print(countries)
 ##4. Sets
+favorite_fruit = {"apple", "banana", "grape", "raspberries", "blueberries", "blackberries"}
+

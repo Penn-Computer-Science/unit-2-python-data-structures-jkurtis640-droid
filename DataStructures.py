@@ -33,3 +33,4 @@ print("Belmopan")
 print("Tegucigalpa")
 countries["Nicaragua"] = "Managua"
 print(countries)
+print(countries)

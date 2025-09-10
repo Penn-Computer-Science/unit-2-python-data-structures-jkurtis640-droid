@@ -21,3 +21,15 @@ print(number[3])
 print(number[5])
 print(number[7])
 print(number[9])
+## Dictionaries
+countries = {
+   "America": "Washington DC",
+    "Canada": "Ottawa",
+    "Mexico": "Mexico City",
+    "Honduras": "Tegucigalpa",
+    "Belize": "Belmopan",
+}
+print("Belmopan")
+print("Tegucigalpa")
+countries["Nicaragua"] = "Managua"
+print(countries)

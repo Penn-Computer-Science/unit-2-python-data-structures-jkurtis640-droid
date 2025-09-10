@@ -35,4 +35,7 @@ print(countries)
 print(countries)
 ##4. Sets
 favorite_fruit = {"apple", "banana", "grape", "raspberries", "blueberries", "blackberries"}
-
+print(favorite_fruit)
+favorite_fruit.add("dragonfruit")
+favorite_fruit.remove("apple")
+print(favorite_fruit)

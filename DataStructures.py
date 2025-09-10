@@ -34,8 +34,16 @@ countries["Nicaragua"] = "Managua"
 print(countries)
 print(countries)
 ##4. Sets
-favorite_fruit = {"apple", "banana", "grape", "raspberries", "blueberries", "blackberries"}
+favorite_fruit = {"apple","banana","grape","raspberries","blueberries","blackberries"}
 print(favorite_fruit)
 favorite_fruit.add("dragonfruit")
 favorite_fruit.remove("apple")
 print(favorite_fruit)
+favorite_fruit_friend = {"durian","orange","passionfruit","lemon","lime","strawberries"}
+print(favorite_fruit_friend)
+favorite_fruit_both_like = {"cherry","jackfruit","acaiberry","gooseberry","cranberry","blackberries","tangerine"}
+print(favorite_fruit_both_like)
+favorite_fruit_only_i_like = {"blueberries","blackberries","raspberries","bananas","mango","blueberries"}
+print(favorite_fruit_only_i_like)
+favorite_fruit_neither = {"grapefruit","starfruit","boysenberry","peaches","kiwi","fig"}
+print(favorite_fruit_neither)

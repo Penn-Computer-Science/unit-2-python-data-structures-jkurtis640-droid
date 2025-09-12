@@ -4,5 +4,9 @@ gradebook = {
   "Tarkonchenku": 100, # reference to project 1
 }
 
+gradebook_input_student = input("Enter a student: ")
+gradebook_input_grade = input("Enter a grade:")
+gradebook[gradebook_input_student] =  gradebook_input_grade
+
 
 

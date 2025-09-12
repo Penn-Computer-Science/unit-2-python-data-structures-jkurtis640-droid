@@ -3,7 +3,7 @@ gradebook = {
   "Michael Terry": 80,
   "Tarkonchenku": 100, # reference to project 1
 }
-
+print(gradebook)
 gradebook_input_student = input("Enter a student: ")
 gradebook_input_grade = input("Enter a grade:")
 gradebook[gradebook_input_student] =  gradebook_input_grade

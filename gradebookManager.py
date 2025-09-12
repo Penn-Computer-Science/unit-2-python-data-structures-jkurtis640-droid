@@ -10,4 +10,6 @@ gradebook[gradebook_input_student] =  gradebook_input_grade
 print(gradebook)
 
 def average(a,b,c):
-    
+    average_grade = a + b + c // 3
+    return average_grade
+

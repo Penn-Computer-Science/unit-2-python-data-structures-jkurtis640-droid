@@ -13,3 +13,13 @@ def average(a,b,c):
     average_grade = a + b + c // 3
     return average_grade
 
+
+average(71,54,82)
+print("Average: ", average)
+average(80,76,80)
+print("Average: ", average)
+average(90,87,100)
+print("Average: ", average)
+average(100,100,100)
+print("Average: ", average)
+

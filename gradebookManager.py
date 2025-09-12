@@ -10,16 +10,16 @@ gradebook[gradebook_input_student] =  gradebook_input_grade
 print(gradebook)
 
 def average(a,b,c):
-    average_grade = a + b + c // 3
-    return average_grade
+    return ((a + b + c) // 3)
+
+print("Average: ", str(average(71,54,82)))
+a1 = average(80,76,80)
+print("Average: ", str(average(80,76,80)))
+a2 = average(86,87,100)
+print("Average: ", str(average(90,87,100)))
+a3 = average(100,100,100)
+print("Average: ", str(average(100,100,100)))
 
 
-average(71,54,82)
-print("Average: ", average)
-average(80,76,80)
-print("Average: ", average)
-average(90,87,100)
-print("Average: ", average)
-average(100,100,100)
-print("Average: ", average)
+
 

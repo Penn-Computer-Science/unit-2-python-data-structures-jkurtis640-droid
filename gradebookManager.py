@@ -9,4 +9,5 @@ gradebook_input_grade = input("Enter a grade:")
 gradebook[gradebook_input_student] =  gradebook_input_grade
 print(gradebook)
 
-
+def average(a,b,c):
+    

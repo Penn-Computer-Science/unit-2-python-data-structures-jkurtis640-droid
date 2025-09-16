@@ -28,24 +28,25 @@ elif a3 < 92:
    print("Invalid top student")
 
 print("Top student: ", new_gradebook[2])
-
+yes = "yes"
+no = "no"
 expel_student = input("Do you want to remove a student: ")
-if expel_student == "no":
+if expel_student == no:
    print("I will keep the grade book the same. ")
-if expel_student == "yes":
-   print("Which student do you want to remove? ")
+if expel_student == yes:
+   student_expel = input("Which student do you want to remove ")
    try:
-      if expel_student == "Alice Harry":
+      if student_expel == "Alice Harry":
          remove_student = new_gradebook.remove("Alice Harry")
          print("Removed Alice Harry! ")
-      elif expel_student == "Michael Terry":
+      elif student_expel == "Michael Terry":
          remove_student = new_gradebook.remove("Michael Terry")
          print("Removed Michael Terry! ")
-      elif expel_student == "Tarkonchenku":
+      elif student_expel == "Tarkonchenku":
          remove_student = new_gradebook.remove("Tarkonchenku")
          print("Great you removed the top student and you destroyed the space time continuum ")
    except ValueError:
-      if expel_student == "Joe Kurtis":
+      if student_expel == "Joe Kurtis":
          remove_student = new_gradebook.remove("Joe Kurtis")
          print("Great you destroyed my future ")
          ## Secret creator ending

@@ -35,33 +35,32 @@ if expel_student == no:
    print("I will keep the grade book the same. ")
 if expel_student == yes:
    student_expel = input("Which student do you want to remove ")
-   try:
-      if student_expel == "Alice Harry":
+   if student_expel == "Alice Harry":
          remove_student = new_gradebook.remove("Alice Harry")
          print("Removed Alice Harry! ")
-      elif student_expel == "Michael Terry":
+   elif student_expel == "Michael Terry":
          remove_student = new_gradebook.remove("Michael Terry")
          print("Removed Michael Terry! ")
-      elif student_expel == "Tarkonchenku":
+   elif student_expel == "Tarkonchenku":
          remove_student = new_gradebook.remove("Tarkonchenku")
          print("Great you removed the top student and you destroyed the space time continuum ")
-   except ValueError:
-      if student_expel == "Joe Kurtis":
+   elif student_expel == "Joe Kurtis":
          remove_student = new_gradebook.remove("Joe Kurtis")
          print("Great you destroyed my future ")
          ## Secret creator ending
-      else:
+   else:
          print("Don't remove some one you just added ")
-      if gradebook < 90:
+   if gradebook < 90:
          print("Student has an A")
-      elif gradebook < 80 and gradebook < 90:
+   elif gradebook < 80 and gradebook < 90:
          print("Student has a B") 
-      elif gradebook < 70 and gradebook < 80:
+   elif gradebook < 70 and gradebook < 80:
          print("Student has a C")
-      elif gradebook < 60 and gradebook < 70:
+   elif gradebook < 60 and gradebook < 70:
          print("Student has a D")
-      elif gradebook < 60:
+   elif gradebook < 60:
          print("Student has an F")
-      new_gradebook.sort()
+   new_gradebook.sort()
 
+## Ready to grade
     
